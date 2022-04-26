@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content"> 
+        <div class="photo">
+            <img src="japan.jpg" alt="Couple sitting in japan">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+                <h1>Simple travels</h1>
+            </div>
+        </div>
+        <div class="form">
+            <div class="information">
+                <p>This is not a real online service! Sign up now to book the vacation of your dreams.</p>
+            </div>
+            <form action="#">
+                <div class="form left">
+                    <p class="form_message">Create Account</p>
+                    <div class="input">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name" required>
+                    </div>
+                    <div class="input">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name" required>
+                    </div>
+                    <div class="input">
+                        <label for="user_email">Email</label>
+                        <input type="email" name="user_email" id="user_email" required>
+                    </div>
+                    <div class="input">
+                        <label for="user_phone_number">Phone Number</label>
+                        <input type="text" name="user_phone_number" id="user_phone_number" minlength="10"  maxlength="10" required>
+                    </div>
+                    <div class="input">
+                        <label for="user_password">Password</label>
+                        <input type="password" name="user_password" id="user_password" required>
+                    </div>
+                    <div class="input">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" name="confirm_password" id="confirm_password" required>
+                    </div>
+                </div>
+                <div class="shift button"> <button type="submit">Create Account</button> </div>
+            </form>
+            
+        </div>  
+
+            
+    </div>
+   
+</body>
+</html>

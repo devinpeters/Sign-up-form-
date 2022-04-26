@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.content{
+    display: flex;
+}
+.photo img{ 
+    position: fixed;
+    height: 100vh;
+    width: auto;
+    margin-right: 0;
+}
+
+.logo img{
+    position: fixed;
+    top: 30vh;
+    left: 25px;
+    height: 15vh;
+}
+
+.logo h1{
+    position: fixed;
+    top: 30vh;
+    height: 10vh;
+    width: 32.72vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 35px;
+}
+
+
+
+.form{
+    margin-left: 23vw;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    margin-bottom: 30vh;
+    width: 55vw;
+    height: 5vh;
+}
+
+.information{
+    width: 55vw;
+    padding-top: 10vh;
+    margin-left: 25vw;
+    text-align: center;
+    font-size: 25px;
+}
+
+.left{
+    padding-left: 17vh;
+}
+.shift{
+    padding-left: 20vh;
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 45%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.form_message{
+    width: 100vw;
+    padding-left: 1.3vw;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(115, 29, 29);
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 2px solid rgb(115, 29, 29);
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-bottom: 80vh;
+    margin-left: 23vw;
+}
